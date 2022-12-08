@@ -72,6 +72,11 @@ body {
     width: 42px;
 }
 
+.nav>img:hover {
+    cursor: pointer;
+}
+
+
 .nav>ul {
     margin-top: 10px;
     float: right;
@@ -96,6 +101,8 @@ body {
 }
 
 .about-us {
+    margin:0px;
+    padding:0px;
     position: relative;
 }
 
