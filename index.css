@@ -48,9 +48,22 @@ body {
 .down-btn>i {
     color: #f90706;
     text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}
+
+.down-btn:hover {
+    background-color: #d7d7d7;
+}
+
+.down-btn:hover i {
+    top: 35%;
 }
 
 .nav {
+    top: 0px;
     position: sticky;
     padding: 20px 20px 10px 20px;
 }
@@ -67,7 +80,7 @@ body {
 
 .nav>ul>li {
     display: inline-block;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 18px;
     font-weight: bold;
     margin-left: 20px;
@@ -82,3 +95,29 @@ body {
     color: #f90706;
 }
 
+.about-us {
+    position: relative;
+}
+
+.left-heading {
+    display: inline-block;
+    padding-right: 80px;
+    width: 35%;
+    height: 468px;
+    background: #2a2d2e;
+}
+
+.left-heading>h2 {
+    line-height: 78px;
+    font-size: 90px;
+    text-align: right;
+    color: #d3d3d3;
+    margin-top: 145px;
+}
+
+.right-text {
+    display: inline-block;
+    width: 58%;
+    height: 468px;
+    background: aqua;
+}
