@@ -101,15 +101,15 @@ body {
 }
 
 .about-us {
-    margin:0px;
-    padding:0px;
+    width: 100%;
     position: relative;
 }
 
 .left-heading {
-    display: inline-block;
+    left: 0px;
+    position: absolute;
     padding-right: 80px;
-    width: 35%;
+    width: 36%;
     height: 468px;
     background: #2a2d2e;
 }
@@ -123,8 +123,23 @@ body {
 }
 
 .right-text {
-    display: inline-block;
-    width: 58%;
-    height: 468px;
-    background: aqua;
+    color: #333333;
+    right: 0px;
+    position: absolute;
+    width: 44%;
+    height: 292px;
+    padding: 88px;
+}
+
+.right-text>h5 {
+    color: #333333;
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.right-text>p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 30px;
 }
