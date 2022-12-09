@@ -63,6 +63,8 @@ body {
 }
 
 .nav {
+    background-color: white;
+    z-index: 5;
     top: 0px;
     position: sticky;
     padding: 20px 20px 10px 20px;
@@ -103,6 +105,7 @@ body {
 .about-us {
     width: 100%;
     position: relative;
+    height: 70vh;
 }
 
 .left-heading {
@@ -142,4 +145,70 @@ body {
     color: #333333;
     font-size: 18px;
     line-height: 30px;
+}
+
+
+.info {
+    padding: 150px 40px;
+    position: relative;
+}
+
+.info-card {
+    padding: 0px 30px;
+    width: 25%;
+    display: inline-block;
+}
+
+.info-card>i {
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.info-card>h4 {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.info-card>p {
+    line-height: 26px;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+.counters {
+    padding: 90px 10px;
+    position: relative;
+    background: url(./images/numbers_bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.counter {
+    display: inline-block;
+    width: 14%;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.counter>i {
+    display: block;
+    font-size: 32px;
+    color: white;
+}
+
+.counter>span {
+    color: #f90706;
+    font-size: 40px;
+    line-height: 64px;
+}
+
+.counter>h6 {
+    font-size: 16px;
+    color: white;
+    line-height: 16px;
+}
+
+.right-border {
+    border-right: solid 1px rgba(255, 255, 255, .2);
 }
