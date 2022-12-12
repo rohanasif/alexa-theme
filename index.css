@@ -407,3 +407,79 @@ body {
     background-image: url(./images/work5.jpg);
     left: 83.33%;
 }
+
+.our-clients {
+    position: relative;
+    padding-left: 100px;
+    padding-top: 150px;
+    top: 468px;
+}
+
+.our-clients>h2 {
+    color: #333333;
+    margin-bottom: 85px;
+    font-size: 55px;
+}
+
+.client-img {
+    display: inline-block;
+    width: 15.67%;
+
+}
+
+.client-img>img {
+    width: 100%;
+}
+
+.pricing {
+    padding: 150px 100px;
+    position: relative;
+    top: 468px;
+}
+
+.pricing>h3 {
+    color: #333333;
+    font-size: 55px;
+    margin-bottom: 85px;
+}
+
+.pricing>h5 {
+    color: #333333;
+    font-size: 25px;
+    margin-bottom: 85px;
+}
+
+.pricing-cards {
+    margin-left: 150px;
+}
+
+.pricing-card {
+    position: relative;
+    top: 468px;
+    display: inline-block;
+    width: 20%;
+    height: 185px;
+    background-color: #2a2d2e;
+    text-align: center;
+    padding: 52px;
+}
+
+.pricing-card>h6 {
+    font-size: 18px;
+    color: #f90706;
+    margin-bottom: 35px;
+}
+
+.pricing-card>span {
+    margin-bottom: 26px;
+    font-size: 77px;
+    color: #d3d3d3;
+    font-weight: bold;
+}
+
+.pricing-card>p {
+    margin-top: 26px;
+    color: #4c4c4c;
+    font-size: 18px;
+    line-height: 30px;
+}
