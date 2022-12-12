@@ -483,3 +483,58 @@ body {
     font-size: 18px;
     line-height: 30px;
 }
+
+.feature {
+    position: relative;
+    width: 100%;
+    padding: 52px;
+    text-align: left;
+    color: #4c4c4c;
+    font-size: 18px;
+    background-color: #e8e8e8;
+    left: -52px;
+}
+
+#card-1 {
+    top: 0px;
+}
+
+#card-2 {
+    top: 125px;
+}
+
+#card-3 {
+    top: 375px;
+}
+
+.highlight-price:hover {
+    background-color: white;
+}
+
+.feature>button {
+    font-weight: bold;
+    padding: 20px;
+    border-color: #2a2d2e;
+    color: #2a2d2e;
+}
+
+.feature>button:hover {
+    border-color: #f90706;
+    background-color: #f90706;
+    color: white;
+}
+
+.description {
+    text-align: center;
+    padding: 140px 0px;
+    background-image: url(./images/parallax_bg.jpg);
+    background-attachment: fixed;
+    position: relative;
+    top: 600px;
+}
+
+.description>h4 {
+    padding: 0px 300px;
+    font-size: 22px;
+    color: white;
+}
