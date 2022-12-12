@@ -68,6 +68,7 @@ body {
     top: 0px;
     position: sticky;
     padding: 20px 20px 10px 20px;
+    border-bottom: 1px solid #cfcfcf;
 }
 
 .nav>img {
@@ -211,4 +212,198 @@ body {
 
 .right-border {
     border-right: solid 1px rgba(255, 255, 255, .2);
+}
+
+.our-team {
+    padding: 150px 70px;
+}
+
+.left-intro {
+    display: inline-block;
+    width: 40%;
+}
+
+.left-intro>h3 {
+    color: #333333;
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 86px;
+}
+
+.left-intro>h5 {
+    color: #333333;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.right-intro {
+    display: inline-block;
+    width: 40%;
+    margin-left: 100px;
+}
+
+.right-intro>p {
+    color: #4c4c4c;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.team-pics {
+    margin-left: 70px;
+}
+
+.team-pic {
+    display: inline-block;
+    width: 21%;
+}
+
+.team-pic>img {
+    width: 100%;
+}
+
+.what-we-do-cards {
+    margin-top: 518px;
+    margin-left: 40px;
+}
+
+.wwd-icon>i {
+    font-size: 40px;
+}
+
+.wwd-card {
+    display: inline-block;
+    width: 230px;
+    height: 415px;
+    padding: 35px;
+    text-align: center;
+    border: 1px solid #b4b4b4;
+    margin-right: -5px;
+}
+
+.wwd-card>h6 {
+    padding-top: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 18px;
+}
+
+.wwd-card>p {
+    visibility: hidden;
+}
+
+.wwd-card:hover p {
+    visibility: visible;
+}
+
+.banner {
+    width: 100%;
+    height: 440px;
+    background-image: url(./images/video.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-our-work {
+    left: 0px;
+    position: absolute;
+    padding-right: 80px;
+    width: 36%;
+    height: 468px;
+    background: #2a2d2e;
+}
+
+.left-our-work>h2 {
+    line-height: 78px;
+    font-size: 90px;
+    text-align: right;
+    color: #d3d3d3;
+    margin-top: 145px;
+}
+
+.right-our-work {
+    color: #333333;
+    right: 0px;
+    position: absolute;
+    width: 44%;
+    height: 292px;
+    padding: 88px;
+}
+
+.right-our-work>h5 {
+    color: #333333;
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+}
+
+.our-work-tiles {
+    position: relative;
+}
+
+.nav-btns {
+    top: 468px;
+    position: relative;
+    background-color: #2a2d2e;
+    width: 16.67%;
+    height: 621px;
+}
+
+.btn {
+    position: absolute;
+    top: 0px;
+    margin: 0px auto;
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+}
+
+.btn>i {
+    color: white;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#btn-2 {
+    top: 310px;
+    left: 50px;
+}
+
+#btn-1 {
+    left: 50px;
+    top: 210px;
+}
+
+.tile {
+    position: absolute;
+    width: 16.67%;
+    height: 621px;
+    top: 468px;
+}
+
+#tile-1 {
+    background-image: url(./images/work1.jpg);
+    left: 16.67%;
+}
+
+#tile-2 {
+    background-image: url(./images/work2.jpg);
+    left: 33.34%;
+}
+
+#tile-3 {
+    background-image: url(./images/work3.jpg);
+    left: 50%;
+}
+
+#tile-4 {
+    background-image: url(./images/work4.jpg);
+    left: 66.67%;
+}
+
+#tile-5 {
+    background-image: url(./images/work5.jpg);
+    left: 83.33%;
 }
