@@ -148,6 +148,16 @@ body {
     line-height: 30px;
 }
 
+.right-text span {
+    text-decoration: underline;
+    color: black;
+}
+
+.right-text span:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #f90706;
+}
 
 .info {
     padding: 150px 40px;
@@ -253,9 +263,13 @@ body {
 }
 
 .team-pic {
+    transition: all 0.35s ease-in-out;
     display: inline-block;
+    height:40%;
     width: 21%;
 }
+
+
 
 .team-pic>img {
     width: 100%;
@@ -624,6 +638,7 @@ body {
 }
 
 .left-contact {
+    padding: 50px;
     color: #d3d3d3;
     background-color: #2a2d2e;
     position: absolute;
@@ -641,7 +656,7 @@ body {
 
 .right-contact {
     position: absolute;
-    left: 600px;
+    left: 650px;
     width: 40%;
 }
 
